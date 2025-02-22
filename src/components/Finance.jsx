@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 function Finance() {
   return (
+    <div>
+       <p className="text-[30px] text-center p-3 font-[Gotu] font-bold">Read a book and expand your world view</p>
     <div className="flex justify-center items-center flex-wrap pt-10 gap-3">
-     
       <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
         <div class="md:flex">
           <div class="md:shrink-0">
@@ -120,6 +121,8 @@ function Finance() {
         </div>
       </div>
       </div>
+    </div>
+    
   );
 }
 

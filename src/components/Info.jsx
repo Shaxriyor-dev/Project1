@@ -2,46 +2,57 @@ import React from "react";
 import logo from "../assets/imgs/logo.png";
 function Info() {
   return (
-    <div className="h-[100%]  px-20 bg-gradient-to-r from-[#34495E] to-gray-900 fixed flex items-baseline gap-10 justify-between">
+    <div className="h-[100%]  px-20 fixed flex items-baseline gap-10 justify-between">
       <div>
-      <div className="flex items-center gap-2 py-7">
-        <div className="flex items-center gap-2 py-7">
-        <img className="h-[90px]" src={logo} alt="" />
-        <a
-          className="font-[Poppins] text-[34px] text-white font-bold"
-          href="/"
-        >
-          Talim uz
-        </a>
+        <div className="flex items-center gap-2 py-2">
+          <div className="flex items-center gap-2 py-7">
+            <img className="h-[90px]" src={logo} alt="" />
+            <a
+              className="font-[Poppins] text-[34px] text-black font-bold"
+              href="/"
+            >
+              Talim uz
+            </a>
+          </div>
         </div>
-        </div>
-        <div className="text-white">
-        <p  className="text-2xl font-[Poppins] font-[600] mt-4"> ✨ Kelajak sari bilim bilan</p>
-        <p className="font-[Poppins] font-medium mt-5 text-base/8 text-[17px] w-[75rem]">
-          "Bilim Sari Qadam" — bu zamonaviy ta'lim texnologiyalariga asoslangan
-          o'quv platformasi bo'lib, o'quvchilarga sifatli va samarali bilim
-          olish imkonini yaratadi. 🖤 Sayt orqali o'quvchilar fanlarni o'rganish,
-          interaktiv darslarda ishtirok etish va o'z bilimlarini sinab
-          ko'rishlari mumkin. Platforma o'quvchilarga quyidagi imkoniyatlarni
-          taqdim etadi:  Oson va tezkor foydalanish: Sayt orqali istalgan
-          vaqtda va istalgan joydan darslarga ulanish imkoniyati.  Boy ta'lim
-          resurslari: Matnli darsliklar, videodarslar, testlar, interaktiv
-          mashqlar va amaliy topshiriqlar.❔
-          ko'rishlari mumkin. Platforma o'quvchilarga quyidagi imkoniyatlarni
-          taqdim etadi: 🖤 Oson va tezkor foydalanish: Sayt orqali istalgan
-          vaqtda va istalgan joydan darslarga ulanish imkoniyati.  Boy ta'lim
-          resurslari: Matnli darsliklar, videodarslar, testlar, interaktiv
-          mashqlar va amaliy topshiriqlar.
-          vaqtda va istalgan joydan darslarga ulanish imkoniyati.  Boy ta'lim
-          resurslari: Matnli darsliklar, videodarslar, testlar, interaktiv
-          mashqlar va amaliy topshiriqlar.❔
-        </p>
+        <div className="text-black">
+          <p className="font-[Gotu] p-3">
+            <p className="text-[20px] font-bold">📚 1. Asosiy bo'limlar:</p>
+            Bosh sahifa: Yangiliklar, e'lonlar va muhim ma'lumotlar. Biz
+            haqimizda: Saytning maqsadi, vazifalari va jamoa haqida ma'lumot.
+            O'quv kurslari: Maktab fanlari (Matematika, Fizika, Tarix, Ingliz
+            tili va boshqalar) Onlayn kurslar (IT, dizayn, tillar, biznes va
+            boshqalar) Sertifikatlar va dars jadvali
+          </p>
+          <p className="font-[Gotu] p-3">
+            <p className="text-[20px] font-bold">
+              📚 2. O'qituvchilar va talaba profillari:
+            </p>
+            O'qituvchilar haqida ma'lumot (ism-familiya, mutaxassisligi,
+            tajribasi) Talaba profili (yutuqlar, o'qigan kurslari, baholari)
+            Fikr-mulohazalar va reytinglar
+          </p>
+          <p className="font-[Gotu] p-3">
+            <p className="text-[20px] font-bold">
+              📅 3. Yangiliklar va e'lonlar:
+            </p>
+            Ta'lim yangiliklari Seminarlar, vebinarlar va tanlovlar haqidagi
+            ma'lumotlar Imtihon vaqtlari va grantlar haqida e'lonlar
+          </p>
+          <p className="font-[Gotu] p-3">
+            <p className="text-[20px] font-bold">📖 4. Resurslar:</p>
+            Darsliklar va ma'ruza matnlari Testlar va amaliy topshiriqlar Video
+            darslar va tutoriallar PDF kitoblar va qo'llanmalar
+          </p>
+          <p className="font-[Gotu] p-3">
+            <p className="text-[20px] font-bold">🏆 5. Qo'shimcha xizmatlar:</p>
+            Onlayn testlar va baholash tizimi Savol-javob bo'limi (forum yoki
+            FAQ) Bloglar va maqolalar Mobil ilova (agar mavjud bo'lsa)
+          </p>
         </div>
       </div>
-      <div>
-         
-      </div>
-     </div>
+      <div></div>
+    </div>
   );
 }
 
