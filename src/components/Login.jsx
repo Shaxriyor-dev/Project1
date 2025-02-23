@@ -12,13 +12,23 @@ const Loginim = ()=>{
     const logins = (e) =>{
       e.preventDefault();
 
-      if(Name === 'admin' && pass === '123456'){
+      if(Name === 'admin@gmail.com' && pass === '123456'){
          navigate('/admin')
       }else{
         Seteroer('Sizning loginingiz hato qayta urign!!!')
       }
 
-      if(Name === 'xodim' && pass === '123456'){
+      if(Name === 'xodim@gmail.com' && pass === '12345678'){
+         navigate('/admin')
+      }else{
+        Seteroer('Sizning loginingiz hato qayta urign!!!')
+      }
+      if(Name === 'muhammadyusuf@gmail.com' && pass === '12345678'){
+         navigate('/admin')
+      }else{
+        Seteroer('Sizning loginingiz hato qayta urign!!!')
+      }
+      if(Name === 'rustam@gmail.com' && pass === '12345678'){
          navigate('/admin')
       }else{
         Seteroer('Sizning loginingiz hato qayta urign!!!')

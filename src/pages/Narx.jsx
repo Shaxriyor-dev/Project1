@@ -1,12 +1,11 @@
 import React from 'react'
 
-
-function School() {
+function Tolov() {
   return (
     <div>
-        
+         To'lov
     </div>
   )
 }
 
-export default School
+export default Tolov

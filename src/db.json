@@ -1,3 +1,35 @@
-
-
+[
   
+  {
+     "id" : 1,
+     "fstname" : "Shaxriyor",
+     "lastname" : "Turgunboyov",
+      "age" : 17,
+      "login" : "Admin@gmail.com",
+      "password" : "123456"
+  },
+  {
+     "id" : 2,
+     "fstname" : "Asadbek",
+     "lastname" : "Hamraqulov",
+      "age" : 17,
+      "login" : "xodim@gmail.com",
+      "password" : "12345678"
+  },
+  {
+     "id" : 3,
+     "fstname" : "Muhammadyusuf",
+     "lastname" : "Nasirov",
+      "age" : 17,
+      "login" : "muhammadyusuf@gmail.com",
+      "password" : "12345678"
+  },
+  {
+     "id" : 4,
+     "fstname" : "Rustam",
+     "lastname" : "Remirzayev",
+      "age" : 17,
+      "login" : "rustam@gmail.com",
+      "password" : "12345678"
+  }
+]
